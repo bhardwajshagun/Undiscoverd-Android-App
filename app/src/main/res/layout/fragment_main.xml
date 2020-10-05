@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_fragment_layout">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="649dp"
+            android:text="How to use maps:\nBlue marker shows your current location\nGreen markers show you saved tried\nRed marker appears when you tap on screen\nTo add red marker to your trips, click Add Other Location\nTo add current location to trips, click Add Current Location\n\nHow to use badges:\nOnce you are in Badges menu, in order to see your unlocked badges, you need to click each tile to find your unlocked badges\nBadges get unlocked based on what places you have visited"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
